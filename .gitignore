@@ -96,9 +96,9 @@ out
 .nuxt
 dist
 
-# Gatsby files
+# Gatsby files (not applicable to React)
 .cache/
-public
+# public
 
 # Storybook build outputs
 .out
