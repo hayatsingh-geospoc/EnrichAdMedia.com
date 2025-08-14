@@ -130,6 +130,7 @@ Thumbs.db
 
 # Vercel
 .vercel
+.vercel.json
 
 # TypeScript
 *.tsbuildinfo
@@ -160,3 +161,7 @@ Thumbs.db
 
 # Local deployment scripts
 deploy.sh
+
+# Vercel CLI
+.vercel
+*.vercel.app

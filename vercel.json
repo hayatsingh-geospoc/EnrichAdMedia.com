@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "enrichadmedia",
+  "name": "enrichad",
   "builds": [
     {
       "src": "package.json",
@@ -20,8 +20,8 @@
       "dest": "/favicon.ico"
     },
     {
-      "src": "/manifest.json",
-      "dest": "/manifest.json"
+      "src": "/robots.txt",
+      "dest": "/robots.txt"
     },
     {
       "src": "/(.*)",
@@ -31,9 +31,5 @@
   "env": {
     "NODE_ENV": "production"
   },
-  "functions": {
-    "app/api/**/*.js": {
-      "runtime": "nodejs18.x"
-    }
-  }
+  "framework": "create-react-app"
 }
